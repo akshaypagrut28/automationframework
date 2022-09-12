@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Testmicrosoft(failed)">
+    <parameter name="Browser" value="MicrosoftEdge"/>
+    <classes>
+      <class name="CrossBrowser.Test1">
+        <methods>
+          <include name="acti" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- CrossBrowser.Test1 -->
+    </classes>
+  </test> <!-- Testmicrosoft(failed) -->
+</suite> <!-- Failed suite [Suite] -->
